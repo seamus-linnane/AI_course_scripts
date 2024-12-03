@@ -1,0 +1,46 @@
+# Ignore all Jupyter Notebooks
+*.ipynb
+
+# Ensure Python scripts (.py) are tracked
+!*.py
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Conda environment directories
+conda-meta/
+*.conda
+*.yml  # If you're generating env YAML files but don't want them tracked
+
+# Virtual environments (general and Conda-specific)
+.env
+.venv/
+env/
+venv/
+ENV/
+*.lock
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Machine learning outputs (optional)
+outputs/
+results/
+artifacts/
+*.model
+*.ckpt
