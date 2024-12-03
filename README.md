@@ -13,7 +13,7 @@ The perceptron: A probabilistic model for information storage and organization i
 Psychological Review, 65(6), 386–408.
 DOI: 10.1037/h0042519
 
-This code is adapted from a 2023 Medium article, which explains:  
+This code is adapted from a Robert De La Cruz 2023 Medium article (https://medium.com/@robdelacruz/frank-rosenblatts-perceptron-19fcce9d627f), which explains:  
 	•	The perceptron as a simplified model of a biological neuron with inputs, weights, and a step activation function.  
 	•	Its training algorithm, which adjusts weights based on errors, enabling learning over time.  
 	•	Its historical role in introducing machine learning concepts, despite its inability to solve non-linear problems like XOR.  
